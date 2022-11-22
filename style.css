@@ -81,6 +81,13 @@ button{
     color: white;
 }
 
+
+.bannerPage{
+    display: grid;
+    justify-content: center;
+    margin-top: 40px;
+}
+
 .bannerPage img{
     width:1302px;
     height: 600px;
