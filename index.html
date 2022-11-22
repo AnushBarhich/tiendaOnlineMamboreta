@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tienda Online El Mamboreta</title>
+
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+    <div  class="page-nav">
+        <h1 id="mainTittle">¡El Mamboreta!</h1>
+        <button id="checkout" class="button-checkout" onclick="pay()">Pagar carrito</button>
+    </div>
+
+    <div class="page-content">
+        <div class="product-container">
+            <h3>Cancionero Infantil</h3>
+            <img src="images/product-1.png"/>
+            <h2>$950</h2>
+            <button class="button-add" onclick="add('cancioneroInfantil',950)">Agregar al carrito</button>
+        </div>
+
+        <div class="product-container">
+            <h3>Tablero de Asistencia</h3>
+            <img src="images/product-2.png"/>
+            <h2>$600</h2>
+            <button class="button-add" onclick="add('tableroAsistencia',600)">Agregar al carrito</button>
+        </div>
+
+        <div class="product-container">
+            <h3>Tablero Calendario</h3>
+            <img src="images/product-3.png"/>
+            <h2>$550</h2>
+            <button class="button-add" onclick="add('tableroCalendario',550)">Agregar al carrito</button>
+        </div>
+
+        <div class="product-container">
+            <h3>Cuenta Cuentos Comilon</h3>
+            <img src="images/product-4.png"/>
+            <h2>$700</h2>
+            <button class="button-add" onclick="add('cuentaCuentosComilon',700)">Agregar al carrito</button>
+        </div>
+    </div>
+
+    <div class="bannerPage">
+        <img src="images/banner-mamboreta.png.png"/>
+    </div>
+
+    <div class="formularioDatos" >
+        <h4 class="titulo-principal">Ingrese sus datos</h4>
+        <form id="formulario">
+            <input type="text" name="nombre" id="nombre" placeholder="Ingresa tu nombre">
+            <input type="text" name="apellido" id="apellido" placeholder="Ingresa tu apellido">
+            <input type="submit" id="botonDatos" value="Ingresar">
+        </form>
+    </div>
+
+
+    <script src="./terceraEntrega.js"></script>
+</body>
+</html>
