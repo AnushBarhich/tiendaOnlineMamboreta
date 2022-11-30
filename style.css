@@ -19,6 +19,9 @@ button{
 
 .page-nav h1{
     margin: 20px;
+    text-align: center;
+    color: #f886d6;
+    font-size: 60px;
 }
 
 .button-checkout{
@@ -91,7 +94,7 @@ button{
 .bannerPage img{
     width:1302px;
     height: 600px;
-}
+} 
 
 .formularioDatos{
     margin: 30px;

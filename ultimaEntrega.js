@@ -18,7 +18,12 @@ function add(product, price){
 }
 
 function pay(){
-    window.alert(products.join(",\n"))
+    swal.fire({
+        text:`El total a pagar es $${total}`,
+        confirmButtonText:'Pagar',
+        showCancelButton: true,
+        cancelButtonText: 'Seguir comprando'
+})
 }
 
 //Manejo del formulario con datos del cliente
@@ -40,4 +45,14 @@ formulario.onclick = (e) =>{
 //Guardar en el LocalStorage    
     localStorage.setItem('infoUsuario',JSON.stringify(usuario))
 }
+
+//Uso de la libreria SweetAlert
+Swal.fire({
+    title:'COMMING SOON! HOT SALE! - Hasta 50% OFF',
+    showConfirmButton:false,
+    timer:3000
+})
+
+
+
 
