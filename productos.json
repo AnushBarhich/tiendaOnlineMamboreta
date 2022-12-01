@@ -1,0 +1,50 @@
+[
+    {
+       "id":1,
+       "price":950,
+       "image":"../images/product-1.png",
+       "title":"Cancionero Infantil"
+    },
+    {
+       "id":2,
+       "price":600,
+       "image":"../images/product-2.png",
+       "title":"Tablero de Asistencia"
+    },
+    {
+       "id":3,
+       "price":550,
+       "image":"../images/product-3.png",
+       "title":"Tablero Calendario"
+    },
+    {
+       "id":4,
+       "price":700,
+       "image":"../images/product-4.png",
+       "title":"Cuenta Cuentos Comilon"
+    },
+    {
+       "id":5,
+       "price":1200,
+       "image":"../images/product-5.png",
+       "title":"Carteles de Navidad"
+    },
+    {
+       "id":6,
+       "price":720,
+       "image":"../images/product-6.png",
+       "title":"Tablero de Asistencia La Selva"
+    },
+    {
+       "id":7,
+       "price":650,
+       "image":"../images/product-7.png",
+       "title":"Tablero de Asistencia Perritos"
+    },
+    {
+       "id":8,
+       "price":250,
+       "image":"../images/product-8.png",
+       "title":"TaTeTi Dino"
+    }
+ ]

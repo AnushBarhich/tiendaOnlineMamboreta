@@ -12,15 +12,19 @@ button{
 }
 
 .page-nav{
-    border: 1px solid #C7CEEA;
+    border: 1px solid #c7ceea23;
+    background-image: url(/images/banner-chico-1.png);
+    background-size: cover;
+    background-repeat:no-repeat;
     background-color: #C7CEEA;
     position: relative;
+
 }
 
 .page-nav h1{
     margin: 20px;
     text-align: center;
-    color: #f886d6;
+    color: #fa76d2;
     font-size: 60px;
 }
 
@@ -41,14 +45,16 @@ button{
 
 .page-content{
     display: flex;
-    flex-wrap: wrap;
+    flex-wrap:wrap;
     justify-content: space-evenly;
     border: 1px solid #E2F0CB;
+    background-image: url(/images/background-green.png.png);
+    background-repeat: repeat;
     background-color: #E2F0CB;
 
 }
 
-.product-container{
+.cards{
     margin: 10px 0 10px 10px;
     padding: 2px 16px;
     position: relative;
@@ -56,15 +62,15 @@ button{
     background-color: white;
 }
 
-.product-container:hover{
+.cards:hover{
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
 }
 
-.product-container img{
+.cards img{
     width: 300px;
 }
 
-.product-container h2{
+.cards h2{
     margin-bottom: 10px;
     margin-left: 15px;
 }
@@ -94,7 +100,7 @@ button{
 .bannerPage img{
     width:1302px;
     height: 600px;
-} 
+}
 
 .formularioDatos{
     margin: 30px;

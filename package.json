@@ -1,0 +1,25 @@
+{
+  "name": "tiendaonlinemamboreta",
+  "version": "1.0.0",
+  "description": "",
+  "main": "ultimaEntrega.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AnushBarhich/tiendaOnlineMamboreta.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AnushBarhich/tiendaOnlineMamboreta/issues"
+  },
+  "homepage": "https://github.com/AnushBarhich/tiendaOnlineMamboreta#readme",
+  "dependencies": {
+    "axios": "^1.2.0",
+    "sweetalert2": "^11.6.15",
+    "toastify-js": "^1.12.0"
+  }
+}
