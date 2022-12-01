@@ -26,6 +26,7 @@ function pay(){
 })
 }
 
+
 //Manejo del formulario con datos del cliente
 
 const inputNombre = document.getElementById('nombre')
