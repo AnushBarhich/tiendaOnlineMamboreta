@@ -14,11 +14,9 @@ button{
 .page-nav{
     border: 1px solid #c7ceea23;
     background-image: url(/images/banner-chico-1.png);
-    background-size: cover;
+    background-size:cover;
     background-repeat:no-repeat;
-    background-color: #C7CEEA;
     position: relative;
-
 }
 
 .page-nav h1{
@@ -29,9 +27,9 @@ button{
 }
 
 .button-checkout{
-    background-color: #d4f5e98e;
+    background-color:#4fc43f;
     color: black;
-    border: 2px solid #2b9fc5;
+    border: 2px solid #1ebe09;
     transition-duration: 0.4s;
     position: absolute;
     right: 15px;
@@ -39,11 +37,29 @@ button{
 }
 
 .button-checkout:hover{
-    background-color: #2b9fc5;
-    color: white;
+    background-color: #86c731;
+    color: rgb(0, 0, 0);
 }
 
-.page-content{
+.carrito-tittle{
+    color:#da791f;
+    text-align: center;
+}
+
+
+.carrito-style{
+    margin-top: 10px;
+    background-image: url(/images/background-green.png.png);
+    background-repeat: repeat;
+    background-color: #E2F0CB;
+}
+
+.table{
+    background-color: #eff5de;
+}
+
+
+/* .page-content{
     display: flex;
     flex-wrap:wrap;
     justify-content: space-evenly;
@@ -52,15 +68,15 @@ button{
     background-repeat: repeat;
     background-color: #E2F0CB;
 
-}
+} */
 
-.cards{
+/* .cards{
     margin: 10px 0 10px 10px;
     padding: 2px 16px;
     position: relative;
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.1);
     background-color: white;
-}
+} */
 
 .cards:hover{
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
@@ -94,7 +110,7 @@ button{
 .bannerPage{
     display: grid;
     justify-content: center;
-    margin-top: 40px;
+    margin-top: 10px;
 }
 
 .bannerPage img{
