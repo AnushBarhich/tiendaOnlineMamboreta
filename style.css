@@ -2,6 +2,8 @@ body{
     margin: 0px;
     background-color: #ffb7b2c0;
     font-family: 'Fredoka One', cursive;
+    background-image: url(/images/elMambo-Backgroundimage-1.png);
+    background-repeat: repeat;
 }
 
 button{
@@ -58,25 +60,6 @@ button{
     background-color: #eff5de;
 }
 
-
-/* .page-content{
-    display: flex;
-    flex-wrap:wrap;
-    justify-content: space-evenly;
-    border: 1px solid #E2F0CB;
-    background-image: url(/images/background-green.png.png);
-    background-repeat: repeat;
-    background-color: #E2F0CB;
-
-} */
-
-/* .cards{
-    margin: 10px 0 10px 10px;
-    padding: 2px 16px;
-    position: relative;
-    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.1);
-    background-color: white;
-} */
 
 .cards:hover{
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
